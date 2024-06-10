@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(http://www.vaishalihotel.in/images/bg1.jpg);
+}
+#NavigationBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #333;
+    
+}
+.Heading img{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin-top: 5px;
+    
+}
+.Heading{
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.Details a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 0.5em 1em; 
+}
+
+.Details a:hover {
+    background-color: #444; 
+    border-radius: 4px; 
+}
+#Menu{
+    display: flex;
+    gap: 40px;
+    /* border: 1px solid; */
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,420px);
+    /* justify-content: center; */
+    width: 200px;
+    
+}
+.Courses{
+    /* border: 1px solid green;  */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Courses h2{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#Menu .Starter{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   
+    
+}
+.Starter h3{
+    flex-grow: 1;
+    margin: 0;
+
+}
+#Menu .Starter img{
+    width: 100px;
+    margin: 10px;
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.1);
+}
+#Menu .Price h3{
+    margin: 0;
+    white-space: nowrap;
+   
+}
+
+
+.Courses .MainCourse{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.MainCourse h3{
+    flex-grow: 1;
+    margin: 0;
+}
+.Courses  img{
+    width: 80px;
+    margin: 20px;
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.1);
+}
+.Courses .Desserts{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.Desserts h3{
+    flex-grow: 1;
+    margin: 0;
+}
+
+.custom-button{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 470px;
+    width: 400px;
+    
+}
+.custom-button:hover{
+    background-color: #f44336;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.custom-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
